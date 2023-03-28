@@ -1,3 +1,4 @@
+// Write a function shortestWord that accepts a sentence as an argument. The function should return the shortest word in the sentence. If there is a tie, return the word that appears later in the sentence.
 let shortestWord = function(sentence) {
     let words = sentence.split(' ');
     let shortest = words[0];

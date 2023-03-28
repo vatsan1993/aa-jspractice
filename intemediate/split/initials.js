@@ -1,3 +1,4 @@
+// Write a function initials(name) that accepts a full name as an arg. The function should return the initials for that name.
 let initials = function(name){
     let splitName = name.split(' ');
     let initials = '';

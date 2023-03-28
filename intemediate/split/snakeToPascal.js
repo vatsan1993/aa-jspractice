@@ -1,3 +1,6 @@
+// Write a function snakeToCamel that takes in a snake_cased string and returns a PascalCased version of the string. snake_case is where each word is separated with underscores (_). PascalCase is a string where the first char of each word is capital, all other chars lowercase.
+
+
 let title = function(word){
     return word[0].toUpperCase()+ word.slice(1);
 }
